@@ -26,17 +26,17 @@
     "@plane/constants": "workspace:*",
     "@plane/types": "workspace:*",
     "@plane/utils": "workspace:*",
-    "lodash-es": "catalog:",
-    "mobx": "catalog:",
-    "mobx-utils": "catalog:",
-    "uuid": "catalog:",
-    "zod": "catalog:"
+    "lodash-es": "4.18.1",
+    "mobx": "6.12.0",
+    "mobx-utils": "6.0.8",
+    "uuid": "14.0.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@plane/typescript-config": "workspace:*",
-    "@types/lodash-es": "catalog:",
-    "@types/node": "catalog:",
-    "tsdown": "catalog:",
-    "typescript": "catalog:"
+    "@types/lodash-es": "4.17.12",
+    "@types/node": "22.12.0",
+    "tsdown": "0.16.0",
+    "typescript": "5.8.3"
   }
 }

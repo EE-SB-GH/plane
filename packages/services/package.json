@@ -25,13 +25,13 @@
   "dependencies": {
     "@plane/constants": "workspace:*",
     "@plane/types": "workspace:*",
-    "axios": "catalog:",
-    "file-type": "catalog:"
+    "axios": "1.20.0",
+    "file-type": "^21.3.1"
   },
   "devDependencies": {
     "@plane/typescript-config": "workspace:*",
-    "tsdown": "catalog:",
-    "typescript": "catalog:",
-    "vitest": "catalog:"
+    "tsdown": "0.16.0",
+    "typescript": "5.8.3",
+    "vitest": "^4.1.12"
   }
 }

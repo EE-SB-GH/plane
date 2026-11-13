@@ -6,8 +6,8 @@
   "license": "AGPL-3.0",
   "repository": "https://github.com/makeplane/plane.git",
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev --concurrency=18",
+    "build": "turbo run build --filter=web... --concurrency=1",
+    "dev": "turbo run dev --filter=web --concurrency=1",
     "start": "turbo run start",
     "clean": "turbo run clean && rm -rf .turbo && rm -rf .next && rm -rf node_modules && rm -rf dist",
     "fix": "turbo run fix",
@@ -21,12 +21,12 @@
     "doctor": "npx react-doctor@latest"
   },
   "devDependencies": {
-    "husky": "catalog:",
-    "lint-staged": "catalog:",
-    "oxfmt": "catalog:",
-    "oxlint": "catalog:",
+    "husky": "9.1.7",
+    "lint-staged": "16.2.7",
+    "oxfmt": "0.35.0",
+    "oxlint": "1.51.0",
     "react-doctor": "^0.9.22",
-    "turbo": "catalog:"
+    "turbo": "2.10.11"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,cjs,mjs,cts,mts,json,css,md}": [

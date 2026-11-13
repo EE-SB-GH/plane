@@ -26,18 +26,18 @@
     "clean": "rm -rf .turbo && rm -rf .next && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "i18next": "catalog:",
-    "i18next-icu": "catalog:",
-    "i18next-resources-to-backend": "catalog:",
-    "react": "catalog:",
-    "react-i18next": "catalog:"
+    "i18next": "25.10.9",
+    "i18next-icu": "2.4.3",
+    "i18next-resources-to-backend": "1.2.1",
+    "react": "19.2.8",
+    "react-i18next": "16.6.6"
   },
   "devDependencies": {
     "@plane/typescript-config": "workspace:*",
-    "@types/node": "catalog:",
-    "@types/react": "catalog:",
-    "tsdown": "catalog:",
-    "tsx": "catalog:",
-    "typescript": "catalog:"
+    "@types/node": "22.12.0",
+    "@types/react": "19.2.17",
+    "tsdown": "0.16.0",
+    "tsx": "4.20.6",
+    "typescript": "5.8.3"
   }
 }

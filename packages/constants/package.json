@@ -26,9 +26,9 @@
   },
   "devDependencies": {
     "@plane/typescript-config": "workspace:*",
-    "@types/node": "catalog:",
-    "@types/react": "catalog:",
-    "tsdown": "catalog:",
-    "typescript": "catalog:"
+    "@types/node": "22.12.0",
+    "@types/react": "19.2.17",
+    "tsdown": "0.16.0",
+    "typescript": "5.8.3"
   }
 }

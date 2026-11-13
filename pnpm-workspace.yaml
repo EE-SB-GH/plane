@@ -196,19 +196,19 @@ overrides:
   # hook call rather than as an install error. The vite `resolve.dedupe` entries only
   # cover the three app client bundles, not the SSR build, the tsdown package builds
   # or Storybook.
-  react: "catalog:"
-  react-dom: "catalog:"
-  react-is: "catalog:"
-  "@types/react": "catalog:"
-  "@types/react-dom": "catalog:"
+  react: "19.2.8"
+  react-dom: "19.2.8"
+  react-is: "19.2.8"
+  "@types/react": "19.2.17"
+  "@types/react-dom": "19.2.3"
   # @makeplane/propel and @plane/blocks must share one Base UI copy: two copies mean
   # two React contexts, so a blocks part rendered inside a propel root cannot see it.
-  "@base-ui/react": "catalog:"
+  "@base-ui/react": "1.8.0"
   # EXACT pin, bump with the @tiptap/* catalog. @tiptap/react's optional menu deps use ^
   # ranges and would otherwise resolve ahead of @tiptap/core, leaving their peer unmet.
   "@tiptap/extension-bubble-menu": 3.31.3
   "@tiptap/extension-floating-menu": 3.31.3
-  express: "catalog:"
+  express: "4.22.0"
   # @react-router/serve v8 needs Express 5 — it mounts with the Express 5 path syntax
   # `app.all("/{*splat}")`, which Express 4 silently fails to match, 404ing every route.
   # The catalog stays on Express 4 for apps/live, which depends on express-ws (Express 4 only).
@@ -234,13 +234,13 @@ overrides:
   prosemirror-state: 1.4.4
   prosemirror-transform: 1.12.3
   "@types/express": 4.17.23
-  typescript: "catalog:"
-  vite: "catalog:"
+  typescript: "5.8.3"
+  vite: "8.2.4"
   # EXACT pin, bump the number. GHSA-6pq8-jhm2-2vcw fixed in 6.16.1.
   qs: 6.16.2
   diff: 5.2.2
   webpack: 5.104.1
-  lodash-es: "catalog:"
+  lodash-es: "4.18.1"
   lodash: 4.18.1
   # EXACT pin, bump the number. CVE-2026-111758 (DoS via unclosed link reference
   # definitions) fixed in 14.3.3; 15.x is a major we do not take here.
@@ -269,11 +269,11 @@ overrides:
   # No 6.x fix for CVE-2026-104844 (fixed 7.1.6). @tailwindcss/typography pins 6.0.10 but
   # only uses parser()/selector(); 7.0.0's sole break is safe insertion during iteration.
   postcss-selector-parser: 7.1.6
-  axios: "catalog:"
+  axios: "1.20.0"
   # EXACT pin, bump the number. CVE-2026-111755 / CVE-2026-111756 fixed in 1.16.1,
   # GHSA-mrwp-f3q8-3g9p in 1.16.2.
   follow-redirects: 1.16.3
-  uuid: "catalog:"
+  uuid: "14.0.0"
   # EXACT pin: bump the number, never widen -- 4.x breaks ajv's ^3.0.1 (the only
   # consumer here). Floor is 3.1.8, not 3.1.7: it also fixes GHSA-hrr3-gc8f-f4qj,
   # which is MEDIUM so the HIGH/CRITICAL scan won't catch a slip back. 3.1.9 fixes
@@ -285,7 +285,7 @@ overrides:
   body-parser: 1.20.9
   # eslint-plugin-react-hooks declares zod ^3.25.0 || ^4.0.0; keep it on the catalog's 4.x
   # (CVE-2023-54404 has no 3.x fix, and the runtime images copy node_modules wholesale).
-  zod: "catalog:"
+  zod: "^4.6.7"
   tmp: 0.2.7
   form-data: 4.0.6
   "ws@8": 8.21.0
@@ -308,7 +308,7 @@ overrides:
   toml: ">=5.0.1 <6"
   # The lockfile predates the 2026-10-05 advisories below.
   # serve 14.2.5 pins compression 1.8.1 exactly; CVE-2026-87776 fixed in 1.8.2.
-  compression: "catalog:"
+  compression: "1.8.2"
   # express ~2.0.7 / ^2.0.7 already allow it; CVE-2026-90711 (critical) fixed in 2.0.8.
   proxy-addr: ">=2.0.8 <3"
   # postcss and friends; CVE-2026-93749 fixed in 1.2.2.

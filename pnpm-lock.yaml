@@ -4,448 +4,10 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-catalogs:
-  default:
-    '@atlaskit/pragmatic-drag-and-drop':
-      specifier: 1.7.4
-      version: 1.7.4
-    '@atlaskit/pragmatic-drag-and-drop-auto-scroll':
-      specifier: 1.4.0
-      version: 1.4.0
-    '@atlaskit/pragmatic-drag-and-drop-hitbox':
-      specifier: 1.1.0
-      version: 1.1.0
-    '@bprogress/core':
-      specifier: ^1.3.4
-      version: 1.3.4
-    '@floating-ui/dom':
-      specifier: ^1.7.1
-      version: 1.8.0
-    '@floating-ui/react':
-      specifier: ^0.27.20
-      version: 0.27.20
-    '@fontsource-variable/inter':
-      specifier: 5.2.8
-      version: 5.2.8
-    '@fontsource/ibm-plex-mono':
-      specifier: 5.2.7
-      version: 5.2.7
-    '@fontsource/inter':
-      specifier: 5.2.8
-      version: 5.2.8
-    '@fontsource/material-symbols-rounded':
-      specifier: 5.2.30
-      version: 5.2.30
-    '@hocuspocus/extension-database':
-      specifier: 3.4.4
-      version: 3.4.4
-    '@hocuspocus/extension-logger':
-      specifier: 3.4.4
-      version: 3.4.4
-    '@hocuspocus/extension-redis':
-      specifier: 3.4.4
-      version: 3.4.4
-    '@hocuspocus/provider':
-      specifier: 3.4.4
-      version: 3.4.4
-    '@hocuspocus/server':
-      specifier: 3.4.4
-      version: 3.4.4
-    '@hypermod/utils':
-      specifier: ^0.7.1
-      version: 0.7.1
-    '@makeplane/propel':
-      specifier: 0.9.7
-      version: 0.9.7
-    '@react-pdf/renderer':
-      specifier: ^4.8.1
-      version: 4.8.1
-    '@react-pdf/types':
-      specifier: ^2.13.1
-      version: 2.13.1
-    '@react-router/dev':
-      specifier: 8.3.0
-      version: 8.3.0
-    '@react-router/node':
-      specifier: 8.3.0
-      version: 8.3.0
-    '@react-router/serve':
-      specifier: 8.3.0
-      version: 8.3.0
-    '@sesamecare-oss/redlock':
-      specifier: 1.4.0
-      version: 1.4.0
-    '@tailwindcss/postcss':
-      specifier: 4.2.4
-      version: 4.2.4
-    '@tailwindcss/typography':
-      specifier: 0.5.19
-      version: 0.5.19
-    '@tanstack/react-table':
-      specifier: ^8.21.3
-      version: 8.21.3
-    '@tanstack/react-virtual':
-      specifier: ^3.13.12
-      version: 3.13.12
-    '@testing-library/react':
-      specifier: 16.3.3
-      version: 16.3.3
-    '@testing-library/user-event':
-      specifier: 14.6.1
-      version: 14.6.1
-    '@tiptap/core':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-blockquote':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-collaboration':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-document':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-emoji':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-heading':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-image':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-list-item':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-mention':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-task-item':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-task-list':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-text':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-text-align':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-text-style':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extension-underline':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/extensions':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/html':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/pm':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/react':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/starter-kit':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/suggestion':
-      specifier: 3.31.3
-      version: 3.31.3
-    '@tiptap/y-tiptap':
-      specifier: 3.0.9
-      version: 3.0.9
-    '@types/chroma-js':
-      specifier: ^3.1.2
-      version: 3.1.2
-    '@types/compression':
-      specifier: 1.8.1
-      version: 1.8.1
-    '@types/cors':
-      specifier: ^2.8.17
-      version: 2.8.19
-    '@types/express-ws':
-      specifier: ^3.0.5
-      version: 3.0.5
-    '@types/hast':
-      specifier: ^3.0.4
-      version: 3.0.4
-    '@types/jscodeshift':
-      specifier: ^17.3.0
-      version: 17.3.0
-    '@types/lodash-es':
-      specifier: 4.17.12
-      version: 4.17.12
-    '@types/mdast':
-      specifier: ^4.0.4
-      version: 4.0.4
-    '@types/node':
-      specifier: 22.12.0
-      version: 22.12.0
-    '@types/pdf-parse':
-      specifier: ^1.1.5
-      version: 1.1.5
-    '@types/sanitize-html':
-      specifier: 2.16.0
-      version: 2.16.0
-    '@types/ws':
-      specifier: ^8.18.1
-      version: 8.18.1
-    '@vitest/coverage-v8':
-      specifier: ^4.1.12
-      version: 4.1.12
-    ast-types:
-      specifier: 0.14.2
-      version: 0.14.2
-    buffer:
-      specifier: ^6.0.3
-      version: 6.0.3
-    chroma-js:
-      specifier: ^3.2.0
-      version: 3.2.0
-    class-variance-authority:
-      specifier: 0.7.1
-      version: 0.7.1
-    clsx:
-      specifier: ^2.1.1
-      version: 2.1.1
-    cmdk:
-      specifier: ^1.1.1
-      version: 1.1.1
-    comlink:
-      specifier: ^4.4.1
-      version: 4.4.2
-    cors:
-      specifier: ^2.8.5
-      version: 2.8.5
-    date-fns:
-      specifier: ^4.1.0
-      version: 4.1.0
-    dotenv:
-      specifier: 16.4.7
-      version: 16.4.7
-    effect:
-      specifier: 3.20.0
-      version: 3.20.0
-    emoji-picker-react:
-      specifier: ^4.5.16
-      version: 4.12.2
-    emoji-regex:
-      specifier: ^10.3.0
-      version: 10.5.0
-    export-to-csv:
-      specifier: ^1.4.0
-      version: 1.4.0
-    express-winston:
-      specifier: ^4.2.0
-      version: 4.2.0
-    express-ws:
-      specifier: ^5.0.2
-      version: 5.0.2
-    file-type:
-      specifier: ^21.3.1
-      version: 21.3.3
-    frimousse:
-      specifier: ^0.3.0
-      version: 0.3.0
-    happy-dom:
-      specifier: 21.0.4
-      version: 21.0.4
-    hast:
-      specifier: ^1.0.0
-      version: 1.0.0
-    hast-util-to-mdast:
-      specifier: ^10.1.2
-      version: 10.1.2
-    helmet:
-      specifier: ^7.1.0
-      version: 7.2.0
-    highlight.js:
-      specifier: ^11.8.0
-      version: 11.11.1
-    husky:
-      specifier: 9.1.7
-      version: 9.1.7
-    i18next:
-      specifier: 25.10.9
-      version: 25.10.9
-    i18next-icu:
-      specifier: 2.4.3
-      version: 2.4.3
-    i18next-resources-to-backend:
-      specifier: 1.2.1
-      version: 1.2.1
-    ioredis:
-      specifier: 5.7.0
-      version: 5.7.0
-    is-emoji-supported:
-      specifier: ^0.0.5
-      version: 0.0.5
-    isbot:
-      specifier: ^5.1.31
-      version: 5.2.1
-    jscodeshift:
-      specifier: ^17.3.0
-      version: 17.3.0
-    jsdom:
-      specifier: 23.2.0
-      version: 23.2.0
-    jsx-dom-cjs:
-      specifier: ^8.0.3
-      version: 8.1.6
-    linkifyjs:
-      specifier: ^4.3.3
-      version: 4.3.3
-    lint-staged:
-      specifier: 16.2.7
-      version: 16.2.7
-    lowlight:
-      specifier: ^3.0.0
-      version: 3.3.0
-    lucide-react:
-      specifier: 0.469.0
-      version: 0.469.0
-    mdast:
-      specifier: ^3.0.0
-      version: 3.0.0
-    mobx:
-      specifier: 6.12.0
-      version: 6.12.0
-    mobx-react:
-      specifier: 9.2.2
-      version: 9.2.2
-    mobx-utils:
-      specifier: 6.0.8
-      version: 6.0.8
-    next-themes:
-      specifier: 0.4.6
-      version: 0.4.6
-    oxfmt:
-      specifier: 0.35.0
-      version: 0.35.0
-    oxlint:
-      specifier: 1.51.0
-      version: 1.51.0
-    pdf-parse:
-      specifier: ^2.4.5
-      version: 2.4.5
-    prosemirror-codemark:
-      specifier: ^0.4.2
-      version: 0.4.2
-    prosemirror-markdown:
-      specifier: 1.13.4
-      version: 1.13.4
-    react-dropzone:
-      specifier: ^14.2.3
-      version: 14.3.8
-    react-fast-compare:
-      specifier: ^3.2.2
-      version: 3.2.2
-    react-hook-form:
-      specifier: ^7.84.0
-      version: 7.84.0
-    react-i18next:
-      specifier: 16.6.6
-      version: 16.6.6
-    react-markdown:
-      specifier: ^10.1.0
-      version: 10.1.0
-    react-masonry-component:
-      specifier: ^6.3.0
-      version: 6.3.0
-    react-pdf-html:
-      specifier: ^2.1.2
-      version: 2.1.3
-    react-router:
-      specifier: 8.3.0
-      version: 8.3.0
-    recharts:
-      specifier: ^2.15.4
-      version: 2.15.4
-    reflect-metadata:
-      specifier: ^0.2.2
-      version: 0.2.2
-    rehype-parse:
-      specifier: ^9.0.1
-      version: 9.0.1
-    rehype-remark:
-      specifier: ^10.0.1
-      version: 10.0.1
-    remark-gfm:
-      specifier: ^4.0.1
-      version: 4.0.1
-    remark-stringify:
-      specifier: ^11.0.0
-      version: 11.0.0
-    sanitize-html:
-      specifier: 2.18.1
-      version: 2.18.1
-    serve:
-      specifier: 14.2.5
-      version: 14.2.5
-    sharp:
-      specifier: ^0.35.5
-      version: 0.35.5
-    smooth-scroll-into-view-if-needed:
-      specifier: ^2.0.2
-      version: 2.0.2
-    swr:
-      specifier: 2.4.2
-      version: 2.4.2
-    tailwind-merge:
-      specifier: 3.4.0
-      version: 3.4.0
-    tailwindcss:
-      specifier: 4.2.4
-      version: 4.2.4
-    tiptap-markdown:
-      specifier: 0.9.0
-      version: 0.9.0
-    tsdown:
-      specifier: 0.16.0
-      version: 0.16.0
-    tsx:
-      specifier: 4.20.6
-      version: 4.20.6
-    turbo:
-      specifier: 2.10.11
-      version: 2.10.11
-    unified:
-      specifier: ^11.0.5
-      version: 11.0.5
-    use-font-face-observer:
-      specifier: ^1.3.0
-      version: 1.3.0
-    vite-tsconfig-paths:
-      specifier: ^5.1.4
-      version: 5.1.4
-    vitest:
-      specifier: ^4.1.12
-      version: 4.1.12
-    winston:
-      specifier: ^3.17.0
-      version: 3.17.0
-    ws:
-      specifier: 8.21.0
-      version: 8.21.0
-    y-indexeddb:
-      specifier: ^9.0.12
-      version: 9.0.12
-    y-protocols:
-      specifier: ^1.0.6
-      version: 1.0.6
-    yjs:
-      specifier: ^13.6.20
-      version: 13.6.27
-
 overrides:
   react: 19.2.8
   react-dom: 19.2.8
-  react-is: ^19.2.8
+  react-is: 19.2.8
   '@types/react': 19.2.17
   '@types/react-dom': 19.2.3
   '@base-ui/react': 1.8.0
@@ -520,40 +82,40 @@ importers:
   .:
     devDependencies:
       husky:
-        specifier: 'catalog:'
+        specifier: 9.1.7
         version: 9.1.7
       lint-staged:
-        specifier: 'catalog:'
+        specifier: 16.2.7
         version: 16.2.7
       oxfmt:
-        specifier: 'catalog:'
+        specifier: 0.35.0
         version: 0.35.0
       oxlint:
-        specifier: 'catalog:'
+        specifier: 1.51.0
         version: 1.51.0
       react-doctor:
         specifier: ^0.9.22
         version: 0.9.22(eslint@10.4.1(jiti@2.7.0))(react@19.2.8)
       turbo:
-        specifier: 'catalog:'
+        specifier: 2.10.11
         version: 2.10.11
 
   apps/admin:
     dependencies:
       '@bprogress/core':
-        specifier: 'catalog:'
+        specifier: ^1.3.4
         version: 1.3.4
       '@fontsource-variable/inter':
-        specifier: 'catalog:'
+        specifier: 5.2.8
         version: 5.2.8
       '@fontsource/ibm-plex-mono':
-        specifier: 'catalog:'
+        specifier: 5.2.7
         version: 5.2.7
       '@fontsource/material-symbols-rounded':
-        specifier: 'catalog:'
+        specifier: 5.2.30
         version: 5.2.30
       '@makeplane/propel':
-        specifier: 'catalog:'
+        specifier: 0.9.7
         version: 0.9.7(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.2.4)
       '@plane/blocks':
         specifier: workspace:*
@@ -577,22 +139,22 @@ importers:
         specifier: workspace:*
         version: link:../../packages/utils
       '@react-router/node':
-        specifier: 'catalog:'
+        specifier: 8.3.0
         version: 8.3.0(react-router@8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(typescript@5.8.3)
       isbot:
-        specifier: 'catalog:'
+        specifier: ^5.1.31
         version: 5.2.1
       lodash-es:
         specifier: 4.18.1
         version: 4.18.1
       mobx:
-        specifier: 'catalog:'
+        specifier: 6.12.0
         version: 6.12.0
       mobx-react:
-        specifier: 'catalog:'
+        specifier: 9.2.2
         version: 9.2.2(mobx@6.12.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       next-themes:
-        specifier: 'catalog:'
+        specifier: 0.4.6
         version: 0.4.6(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react:
         specifier: 19.2.8
@@ -601,16 +163,16 @@ importers:
         specifier: 19.2.8
         version: 19.2.8(react@19.2.8)
       react-hook-form:
-        specifier: 'catalog:'
+        specifier: ^7.84.0
         version: 7.84.0(react@19.2.8)
       react-router:
-        specifier: 'catalog:'
+        specifier: 8.3.0
         version: 8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       serve:
-        specifier: 'catalog:'
+        specifier: 14.2.5
         version: 14.2.5
       swr:
-        specifier: 'catalog:'
+        specifier: 2.4.2
         version: 2.4.2(react@19.2.8)
       uuid:
         specifier: 14.0.0
@@ -623,16 +185,16 @@ importers:
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@react-router/dev':
-        specifier: 'catalog:'
+        specifier: 8.3.0
         version: 8.3.0(@react-router/serve@8.3.0(react-router@8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(typescript@5.8.3))(react-router@8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(typescript@5.8.3)(vite@8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3))
       '@tailwindcss/postcss':
-        specifier: 'catalog:'
+        specifier: 4.2.4
         version: 4.2.4
       '@types/lodash-es':
-        specifier: 'catalog:'
+        specifier: 4.17.12
         version: 4.17.12
       '@types/node':
-        specifier: 'catalog:'
+        specifier: 22.12.0
         version: 22.12.0
       '@types/react':
         specifier: 19.2.17
@@ -641,7 +203,7 @@ importers:
         specifier: 19.2.3
         version: 19.2.3(@types/react@19.2.17)
       dotenv:
-        specifier: 'catalog:'
+        specifier: 16.4.7
         version: 16.4.7
       typescript:
         specifier: 5.8.3
@@ -650,25 +212,25 @@ importers:
         specifier: 8.2.4
         version: 8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3)
       vite-tsconfig-paths:
-        specifier: 'catalog:'
+        specifier: ^5.1.4
         version: 5.1.4(typescript@5.8.3)(vite@8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3))
 
   apps/live:
     dependencies:
       '@fontsource/inter':
-        specifier: 'catalog:'
+        specifier: 5.2.8
         version: 5.2.8
       '@hocuspocus/extension-database':
-        specifier: 'catalog:'
+        specifier: 3.4.4
         version: 3.4.4(y-protocols@1.0.6(yjs@13.6.27))(yjs@13.6.27)
       '@hocuspocus/extension-logger':
-        specifier: 'catalog:'
+        specifier: 3.4.4
         version: 3.4.4(y-protocols@1.0.6(yjs@13.6.27))(yjs@13.6.27)
       '@hocuspocus/extension-redis':
-        specifier: 'catalog:'
+        specifier: 3.4.4
         version: 3.4.4(y-protocols@1.0.6(yjs@13.6.27))(yjs@13.6.27)
       '@hocuspocus/server':
-        specifier: 'catalog:'
+        specifier: 3.4.4
         version: 3.4.4(y-protocols@1.0.6(yjs@13.6.27))(yjs@13.6.27)
       '@plane/decorators':
         specifier: workspace:*
@@ -689,25 +251,25 @@ importers:
         specifier: workspace:*
         version: link:../../packages/utils
       '@react-pdf/renderer':
-        specifier: 'catalog:'
+        specifier: ^4.8.1
         version: 4.8.1(react@19.2.8)
       '@react-pdf/types':
-        specifier: 'catalog:'
+        specifier: ^2.13.1
         version: 2.13.1
       '@sesamecare-oss/redlock':
-        specifier: 'catalog:'
+        specifier: 1.4.0
         version: 1.4.0(ioredis@5.7.0)
       '@tiptap/core':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/pm@3.31.3)
       '@tiptap/html':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3)(happy-dom@21.0.4)
       '@tiptap/pm':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3
       '@tiptap/y-tiptap':
-        specifier: 'catalog:'
+        specifier: 3.0.9
         version: 3.0.9(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.6)(y-protocols@1.0.6(yjs@13.6.27))(yjs@13.6.27)
       axios:
         specifier: 1.20.0
@@ -716,110 +278,110 @@ importers:
         specifier: 1.8.2
         version: 1.8.2
       cors:
-        specifier: 'catalog:'
+        specifier: ^2.8.5
         version: 2.8.5
       dotenv:
-        specifier: 'catalog:'
+        specifier: 16.4.7
         version: 16.4.7
       effect:
-        specifier: 'catalog:'
+        specifier: 3.20.0
         version: 3.20.0
       express:
         specifier: 4.22.0
         version: 4.22.0
       express-ws:
-        specifier: 'catalog:'
+        specifier: ^5.0.2
         version: 5.0.2(express@4.22.0)
       helmet:
-        specifier: 'catalog:'
+        specifier: ^7.1.0
         version: 7.2.0
       ioredis:
-        specifier: 'catalog:'
+        specifier: 5.7.0
         version: 5.7.0
       react:
         specifier: 19.2.8
         version: 19.2.8
       sharp:
-        specifier: 'catalog:'
+        specifier: ^0.35.5
         version: 0.35.5(@types/node@22.12.0)
       uuid:
         specifier: 14.0.0
         version: 14.0.0
       ws:
-        specifier: 'catalog:'
+        specifier: 8.21.0
         version: 8.21.0
       y-protocols:
-        specifier: 'catalog:'
+        specifier: ^1.0.6
         version: 1.0.6(yjs@13.6.27)
       yjs:
-        specifier: 'catalog:'
+        specifier: ^13.6.20
         version: 13.6.27
       zod:
         specifier: ^4.6.7
         version: 4.6.7
     devDependencies:
       '@hocuspocus/provider':
-        specifier: 'catalog:'
+        specifier: 3.4.4
         version: 3.4.4(y-protocols@1.0.6(yjs@13.6.27))(yjs@13.6.27)
       '@plane/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@types/compression':
-        specifier: 'catalog:'
+        specifier: 1.8.1
         version: 1.8.1
       '@types/cors':
-        specifier: 'catalog:'
+        specifier: ^2.8.17
         version: 2.8.19
       '@types/express':
         specifier: 4.17.23
         version: 4.17.23
       '@types/express-ws':
-        specifier: 'catalog:'
+        specifier: ^3.0.5
         version: 3.0.5
       '@types/node':
-        specifier: 'catalog:'
+        specifier: 22.12.0
         version: 22.12.0
       '@types/pdf-parse':
-        specifier: 'catalog:'
+        specifier: ^1.1.5
         version: 1.1.5
       '@types/react':
         specifier: 19.2.17
         version: 19.2.17
       '@types/ws':
-        specifier: 'catalog:'
+        specifier: ^8.18.1
         version: 8.18.1
       '@vitest/coverage-v8':
-        specifier: 'catalog:'
+        specifier: ^4.1.12
         version: 4.1.12(vitest@4.1.12)
       pdf-parse:
-        specifier: 'catalog:'
+        specifier: ^2.4.5
         version: 2.4.5
       tsdown:
-        specifier: 'catalog:'
+        specifier: 0.16.0
         version: 0.16.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(oxc-resolver@11.24.2)(typescript@5.8.3)
       typescript:
         specifier: 5.8.3
         version: 5.8.3
       vitest:
-        specifier: 'catalog:'
+        specifier: ^4.1.12
         version: 4.1.12(@opentelemetry/api@1.9.1)(@types/node@22.12.0)(@vitest/coverage-v8@4.1.12)(happy-dom@21.0.4)(jsdom@23.2.0)(vite@8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3))
 
   apps/space:
     dependencies:
       '@bprogress/core':
-        specifier: 'catalog:'
+        specifier: ^1.3.4
         version: 1.3.4
       '@fontsource-variable/inter':
-        specifier: 'catalog:'
+        specifier: 5.2.8
         version: 5.2.8
       '@fontsource/ibm-plex-mono':
-        specifier: 'catalog:'
+        specifier: 5.2.7
         version: 5.2.7
       '@fontsource/material-symbols-rounded':
-        specifier: 'catalog:'
+        specifier: 5.2.30
         version: 5.2.30
       '@makeplane/propel':
-        specifier: 'catalog:'
+        specifier: 0.9.7
         version: 0.9.7(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.2.4)
       '@plane/blocks':
         specifier: workspace:*
@@ -843,37 +405,37 @@ importers:
         specifier: workspace:*
         version: link:../../packages/utils
       '@react-router/node':
-        specifier: 'catalog:'
+        specifier: 8.3.0
         version: 8.3.0(react-router@8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(typescript@5.8.3)
       '@react-router/serve':
-        specifier: 'catalog:'
+        specifier: 8.3.0
         version: 8.3.0(react-router@8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(typescript@5.8.3)
       axios:
         specifier: 1.20.0
         version: 1.20.0
       clsx:
-        specifier: 'catalog:'
+        specifier: ^2.1.1
         version: 2.1.1
       date-fns:
-        specifier: 'catalog:'
+        specifier: ^4.1.0
         version: 4.1.0
       isbot:
-        specifier: 'catalog:'
+        specifier: ^5.1.31
         version: 5.2.1
       lodash-es:
         specifier: 4.18.1
         version: 4.18.1
       mobx:
-        specifier: 'catalog:'
+        specifier: 6.12.0
         version: 6.12.0
       mobx-react:
-        specifier: 'catalog:'
+        specifier: 9.2.2
         version: 9.2.2(mobx@6.12.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       mobx-utils:
-        specifier: 'catalog:'
+        specifier: 6.0.8
         version: 6.0.8(mobx@6.12.0)
       next-themes:
-        specifier: 'catalog:'
+        specifier: 0.4.6
         version: 0.4.6(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react:
         specifier: 19.2.8
@@ -882,16 +444,16 @@ importers:
         specifier: 19.2.8
         version: 19.2.8(react@19.2.8)
       react-dropzone:
-        specifier: 'catalog:'
+        specifier: ^14.2.3
         version: 14.3.8(react@19.2.8)
       react-hook-form:
-        specifier: 'catalog:'
+        specifier: ^7.84.0
         version: 7.84.0(react@19.2.8)
       react-router:
-        specifier: 'catalog:'
+        specifier: 8.3.0
         version: 8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       swr:
-        specifier: 'catalog:'
+        specifier: 2.4.2
         version: 2.4.2(react@19.2.8)
       uuid:
         specifier: 14.0.0
@@ -904,19 +466,19 @@ importers:
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@react-router/dev':
-        specifier: 'catalog:'
+        specifier: 8.3.0
         version: 8.3.0(@react-router/serve@8.3.0(react-router@8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(typescript@5.8.3))(react-router@8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(typescript@5.8.3)(vite@8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3))
       '@tailwindcss/postcss':
-        specifier: 'catalog:'
+        specifier: 4.2.4
         version: 4.2.4
       '@tailwindcss/typography':
-        specifier: 'catalog:'
+        specifier: 0.5.19
         version: 0.5.19
       '@types/lodash-es':
-        specifier: 'catalog:'
+        specifier: 4.17.12
         version: 4.17.12
       '@types/node':
-        specifier: 'catalog:'
+        specifier: 22.12.0
         version: 22.12.0
       '@types/react':
         specifier: 19.2.17
@@ -925,7 +487,7 @@ importers:
         specifier: 19.2.3
         version: 19.2.3(@types/react@19.2.17)
       dotenv:
-        specifier: 'catalog:'
+        specifier: 16.4.7
         version: 16.4.7
       typescript:
         specifier: 5.8.3
@@ -934,37 +496,37 @@ importers:
         specifier: 8.2.4
         version: 8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3)
       vite-tsconfig-paths:
-        specifier: 'catalog:'
+        specifier: ^5.1.4
         version: 5.1.4(typescript@5.8.3)(vite@8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3))
 
   apps/web:
     dependencies:
       '@atlaskit/pragmatic-drag-and-drop':
-        specifier: 'catalog:'
+        specifier: 1.7.4
         version: 1.7.4
       '@atlaskit/pragmatic-drag-and-drop-auto-scroll':
-        specifier: 'catalog:'
+        specifier: 1.4.0
         version: 1.4.0
       '@atlaskit/pragmatic-drag-and-drop-hitbox':
-        specifier: 'catalog:'
+        specifier: 1.1.0
         version: 1.1.0
       '@base-ui/react':
         specifier: 1.8.0
         version: 1.8.0(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@bprogress/core':
-        specifier: 'catalog:'
+        specifier: ^1.3.4
         version: 1.3.4
       '@fontsource-variable/inter':
-        specifier: 'catalog:'
+        specifier: 5.2.8
         version: 5.2.8
       '@fontsource/ibm-plex-mono':
-        specifier: 'catalog:'
+        specifier: 5.2.7
         version: 5.2.7
       '@fontsource/material-symbols-rounded':
-        specifier: 'catalog:'
+        specifier: 5.2.30
         version: 5.2.30
       '@makeplane/propel':
-        specifier: 'catalog:'
+        specifier: 0.9.7
         version: 0.9.7(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.2.4)
       '@plane/blocks':
         specifier: workspace:*
@@ -994,52 +556,52 @@ importers:
         specifier: workspace:*
         version: link:../../packages/utils
       '@react-pdf/renderer':
-        specifier: 'catalog:'
+        specifier: ^4.8.1
         version: 4.8.1(react@19.2.8)
       '@react-router/node':
-        specifier: 'catalog:'
+        specifier: 8.3.0
         version: 8.3.0(react-router@8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(typescript@5.8.3)
       '@tanstack/react-table':
-        specifier: 'catalog:'
+        specifier: ^8.21.3
         version: 8.21.3(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       axios:
         specifier: 1.20.0
         version: 1.20.0
       clsx:
-        specifier: 'catalog:'
+        specifier: ^2.1.1
         version: 2.1.1
       cmdk:
-        specifier: 'catalog:'
+        specifier: ^1.1.1
         version: 1.1.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       comlink:
-        specifier: 'catalog:'
+        specifier: ^4.4.1
         version: 4.4.2
       date-fns:
-        specifier: 'catalog:'
+        specifier: ^4.1.0
         version: 4.1.0
       emoji-picker-react:
-        specifier: 'catalog:'
+        specifier: ^4.5.16
         version: 4.12.2(react@19.2.8)
       export-to-csv:
-        specifier: 'catalog:'
+        specifier: ^1.4.0
         version: 1.4.0
       isbot:
-        specifier: 'catalog:'
+        specifier: ^5.1.31
         version: 5.2.1
       lodash-es:
         specifier: 4.18.1
         version: 4.18.1
       mobx:
-        specifier: 'catalog:'
+        specifier: 6.12.0
         version: 6.12.0
       mobx-react:
-        specifier: 'catalog:'
+        specifier: 9.2.2
         version: 9.2.2(mobx@6.12.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       mobx-utils:
-        specifier: 'catalog:'
+        specifier: 6.0.8
         version: 6.0.8(mobx@6.12.0)
       next-themes:
-        specifier: 'catalog:'
+        specifier: 0.4.6
         version: 0.4.6(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react:
         specifier: 19.2.8
@@ -1048,43 +610,43 @@ importers:
         specifier: 19.2.8
         version: 19.2.8(react@19.2.8)
       react-dropzone:
-        specifier: 'catalog:'
+        specifier: ^14.2.3
         version: 14.3.8(react@19.2.8)
       react-fast-compare:
-        specifier: 'catalog:'
+        specifier: ^3.2.2
         version: 3.2.2
       react-hook-form:
-        specifier: 'catalog:'
+        specifier: ^7.84.0
         version: 7.84.0(react@19.2.8)
       react-is:
-        specifier: ^19.2.8
+        specifier: 19.2.8
         version: 19.2.8
       react-markdown:
-        specifier: 'catalog:'
+        specifier: ^10.1.0
         version: 10.1.0(@types/react@19.2.17)(react@19.2.8)
       react-masonry-component:
-        specifier: 'catalog:'
+        specifier: ^6.3.0
         version: 6.3.0(react@19.2.8)
       react-pdf-html:
-        specifier: 'catalog:'
+        specifier: ^2.1.2
         version: 2.1.3(@react-pdf/renderer@4.8.1(react@19.2.8))(react@19.2.8)
       react-router:
-        specifier: 'catalog:'
+        specifier: 8.3.0
         version: 8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       recharts:
-        specifier: 'catalog:'
+        specifier: ^2.15.4
         version: 2.15.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       serve:
-        specifier: 'catalog:'
+        specifier: 14.2.5
         version: 14.2.5
       smooth-scroll-into-view-if-needed:
-        specifier: 'catalog:'
+        specifier: ^2.0.2
         version: 2.0.2
       swr:
-        specifier: 'catalog:'
+        specifier: 2.4.2
         version: 2.4.2(react@19.2.8)
       use-font-face-observer:
-        specifier: 'catalog:'
+        specifier: ^1.3.0
         version: 1.3.0(react@19.2.8)
       uuid:
         specifier: 14.0.0
@@ -1097,19 +659,19 @@ importers:
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@react-router/dev':
-        specifier: 'catalog:'
+        specifier: 8.3.0
         version: 8.3.0(@react-router/serve@8.3.0(react-router@8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(typescript@5.8.3))(react-router@8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(typescript@5.8.3)(vite@8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3))
       '@tailwindcss/postcss':
-        specifier: 'catalog:'
+        specifier: 4.2.4
         version: 4.2.4
       '@tailwindcss/typography':
-        specifier: 'catalog:'
+        specifier: 0.5.19
         version: 0.5.19
       '@types/lodash-es':
-        specifier: 'catalog:'
+        specifier: 4.17.12
         version: 4.17.12
       '@types/node':
-        specifier: 'catalog:'
+        specifier: 22.12.0
         version: 22.12.0
       '@types/react':
         specifier: 19.2.17
@@ -1118,7 +680,7 @@ importers:
         specifier: 19.2.3
         version: 19.2.3(@types/react@19.2.17)
       dotenv:
-        specifier: 'catalog:'
+        specifier: 16.4.7
         version: 16.4.7
       typescript:
         specifier: 5.8.3
@@ -1127,22 +689,22 @@ importers:
         specifier: 8.2.4
         version: 8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3)
       vite-tsconfig-paths:
-        specifier: 'catalog:'
+        specifier: ^5.1.4
         version: 5.1.4(typescript@5.8.3)(vite@8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3))
 
   packages/blocks:
     dependencies:
       '@atlaskit/pragmatic-drag-and-drop':
-        specifier: 'catalog:'
+        specifier: 1.7.4
         version: 1.7.4
       '@atlaskit/pragmatic-drag-and-drop-hitbox':
-        specifier: 'catalog:'
+        specifier: 1.1.0
         version: 1.1.0
       '@base-ui/react':
         specifier: 1.8.0
         version: 1.8.0(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@makeplane/propel':
-        specifier: 'catalog:'
+        specifier: 0.9.7
         version: 0.9.7(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.2.4)
       '@plane/constants':
         specifier: workspace:*
@@ -1160,25 +722,25 @@ importers:
         specifier: workspace:*
         version: link:../utils
       '@tanstack/react-virtual':
-        specifier: 'catalog:'
-        version: 3.13.12(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        specifier: ^3.13.12
+        version: 3.14.23(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       class-variance-authority:
-        specifier: 'catalog:'
+        specifier: 0.7.1
         version: 0.7.1
       clsx:
-        specifier: 'catalog:'
+        specifier: ^2.1.1
         version: 2.1.1
       date-fns:
-        specifier: 'catalog:'
+        specifier: ^4.1.0
         version: 4.1.0
       frimousse:
-        specifier: 'catalog:'
+        specifier: ^0.3.0
         version: 0.3.0(react@19.2.8)(typescript@5.8.3)
       lodash-es:
         specifier: 4.18.1
         version: 4.18.1
       lucide-react:
-        specifier: 'catalog:'
+        specifier: 0.469.0
         version: 0.469.0(react@19.2.8)
       react:
         specifier: 19.2.8
@@ -1187,10 +749,10 @@ importers:
         specifier: 19.2.8
         version: 19.2.8(react@19.2.8)
       recharts:
-        specifier: 'catalog:'
+        specifier: ^2.15.4
         version: 2.15.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       use-font-face-observer:
-        specifier: 'catalog:'
+        specifier: ^1.3.0
         version: 1.3.0(react@19.2.8)
     devDependencies:
       '@plane/tailwind-config':
@@ -1200,13 +762,13 @@ importers:
         specifier: workspace:*
         version: link:../typescript-config
       '@testing-library/react':
-        specifier: 'catalog:'
+        specifier: 16.3.3
         version: 16.3.3(@testing-library/dom@10.4.2)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@testing-library/user-event':
-        specifier: 'catalog:'
+        specifier: 14.6.1
         version: 14.6.1(@testing-library/dom@10.4.2)
       '@types/lodash-es':
-        specifier: 'catalog:'
+        specifier: 4.17.12
         version: 4.17.12
       '@types/react':
         specifier: 19.2.17
@@ -1215,34 +777,34 @@ importers:
         specifier: 19.2.3
         version: 19.2.3(@types/react@19.2.17)
       jsdom:
-        specifier: 'catalog:'
+        specifier: 23.2.0
         version: 23.2.0
       tsdown:
-        specifier: 'catalog:'
+        specifier: 0.16.0
         version: 0.16.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(oxc-resolver@11.24.2)(typescript@5.8.3)
       typescript:
         specifier: 5.8.3
         version: 5.8.3
       vitest:
-        specifier: 'catalog:'
+        specifier: ^4.1.12
         version: 4.1.12(@opentelemetry/api@1.9.1)(@types/node@22.12.0)(@vitest/coverage-v8@4.1.12)(happy-dom@21.0.4)(jsdom@23.2.0)(vite@8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3))
 
   packages/codemods:
     devDependencies:
       '@hypermod/utils':
-        specifier: 'catalog:'
+        specifier: ^0.7.1
         version: 0.7.1
       '@types/jscodeshift':
-        specifier: 'catalog:'
+        specifier: ^17.3.0
         version: 17.3.0
       ast-types:
-        specifier: 'catalog:'
+        specifier: 0.14.2
         version: 0.14.2
       jscodeshift:
-        specifier: 'catalog:'
+        specifier: ^17.3.0
         version: 17.3.0
       vitest:
-        specifier: 'catalog:'
+        specifier: ^4.1.12
         version: 4.1.12(@opentelemetry/api@1.9.1)(@types/node@22.12.0)(@vitest/coverage-v8@4.1.12)(happy-dom@21.0.4)(jsdom@23.2.0)(vite@8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3))
 
   packages/constants:
@@ -1255,13 +817,13 @@ importers:
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
-        specifier: 'catalog:'
+        specifier: 22.12.0
         version: 22.12.0
       '@types/react':
         specifier: 19.2.17
         version: 19.2.17
       tsdown:
-        specifier: 'catalog:'
+        specifier: 0.16.0
         version: 0.16.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(oxc-resolver@11.24.2)(typescript@5.8.3)
       typescript:
         specifier: 5.8.3
@@ -1276,16 +838,16 @@ importers:
         specifier: 4.17.23
         version: 4.17.23
       '@types/node':
-        specifier: 'catalog:'
+        specifier: 22.12.0
         version: 22.12.0
       '@types/ws':
-        specifier: 'catalog:'
+        specifier: ^8.18.1
         version: 8.18.1
       reflect-metadata:
-        specifier: 'catalog:'
+        specifier: ^0.2.2
         version: 0.2.2
       tsdown:
-        specifier: 'catalog:'
+        specifier: 0.16.0
         version: 0.16.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(oxc-resolver@11.24.2)(typescript@5.8.3)
       typescript:
         specifier: 5.8.3
@@ -1294,16 +856,16 @@ importers:
   packages/editor:
     dependencies:
       '@floating-ui/dom':
-        specifier: 'catalog:'
+        specifier: ^1.7.1
         version: 1.8.0
       '@floating-ui/react':
-        specifier: 'catalog:'
+        specifier: ^0.27.20
         version: 0.27.20(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@hocuspocus/provider':
-        specifier: 'catalog:'
+        specifier: 3.4.4
         version: 3.4.4(y-protocols@1.0.6(yjs@13.6.27))(yjs@13.6.27)
       '@makeplane/propel':
-        specifier: 'catalog:'
+        specifier: 0.9.7
         version: 0.9.7(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.2.4)
       '@plane/blocks':
         specifier: workspace:*
@@ -1321,103 +883,103 @@ importers:
         specifier: workspace:*
         version: link:../utils
       '@tiptap/core':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/pm@3.31.3)
       '@tiptap/extension-blockquote':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3)
       '@tiptap/extension-collaboration':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3)(@tiptap/y-tiptap@3.0.9(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.6)(y-protocols@1.0.6(yjs@13.6.27))(yjs@13.6.27))(yjs@13.6.27)
       '@tiptap/extension-document':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))
       '@tiptap/extension-emoji':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3)(@tiptap/suggestion@3.31.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3))(emojibase@16.0.0)
       '@tiptap/extension-heading':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))
       '@tiptap/extension-image':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))
       '@tiptap/extension-list-item':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/extension-list@3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3))
       '@tiptap/extension-mention':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3)(@tiptap/suggestion@3.31.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3))
       '@tiptap/extension-task-item':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/extension-list@3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3))
       '@tiptap/extension-task-list':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/extension-list@3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3))
       '@tiptap/extension-text':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))
       '@tiptap/extension-text-align':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))
       '@tiptap/extension-text-style':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))
       '@tiptap/extension-underline':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))
       '@tiptap/extensions':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3)
       '@tiptap/html':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3)(happy-dom@21.0.4)
       '@tiptap/pm':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3
       '@tiptap/react':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@tiptap/starter-kit':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3
       '@tiptap/suggestion':
-        specifier: 'catalog:'
+        specifier: 3.31.3
         version: 3.31.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))(@tiptap/pm@3.31.3)
       '@tiptap/y-tiptap':
-        specifier: 'catalog:'
+        specifier: 3.0.9
         version: 3.0.9(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.6)(y-protocols@1.0.6(yjs@13.6.27))(yjs@13.6.27)
       buffer:
-        specifier: 'catalog:'
+        specifier: ^6.0.3
         version: 6.0.3
       emoji-regex:
-        specifier: 'catalog:'
-        version: 10.5.0
+        specifier: ^10.3.0
+        version: 10.6.0
       happy-dom:
-        specifier: 'catalog:'
+        specifier: 21.0.4
         version: 21.0.4
       highlight.js:
-        specifier: 'catalog:'
+        specifier: ^11.8.0
         version: 11.11.1
       is-emoji-supported:
-        specifier: 'catalog:'
+        specifier: ^0.0.5
         version: 0.0.5
       jsx-dom-cjs:
-        specifier: 'catalog:'
+        specifier: ^8.0.3
         version: 8.1.6
       linkifyjs:
-        specifier: 'catalog:'
+        specifier: ^4.3.3
         version: 4.3.3
       lodash-es:
         specifier: 4.18.1
         version: 4.18.1
       lowlight:
-        specifier: 'catalog:'
+        specifier: ^3.0.0
         version: 3.3.0
       prosemirror-codemark:
-        specifier: 'catalog:'
+        specifier: ^0.4.2
         version: 0.4.2(prosemirror-inputrules@1.5.1)(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.6)
       prosemirror-markdown:
-        specifier: 'catalog:'
+        specifier: 1.13.4
         version: 1.13.4
       react:
         specifier: 19.2.8
@@ -1426,19 +988,19 @@ importers:
         specifier: 19.2.8
         version: 19.2.8(react@19.2.8)
       tiptap-markdown:
-        specifier: 'catalog:'
+        specifier: 0.9.0
         version: 0.9.0(@tiptap/core@3.31.3(@tiptap/pm@3.31.3))
       uuid:
         specifier: 14.0.0
         version: 14.0.0
       y-indexeddb:
-        specifier: 'catalog:'
+        specifier: ^9.0.12
         version: 9.0.12(yjs@13.6.27)
       y-protocols:
-        specifier: 'catalog:'
+        specifier: ^1.0.6
         version: 1.0.6(yjs@13.6.27)
       yjs:
-        specifier: 'catalog:'
+        specifier: ^13.6.20
         version: 13.6.27
     devDependencies:
       '@plane/tailwind-config':
@@ -1448,10 +1010,10 @@ importers:
         specifier: workspace:*
         version: link:../typescript-config
       '@types/lodash-es':
-        specifier: 'catalog:'
+        specifier: 4.17.12
         version: 4.17.12
       '@types/node':
-        specifier: 'catalog:'
+        specifier: 22.12.0
         version: 22.12.0
       '@types/react':
         specifier: 19.2.17
@@ -1463,13 +1025,13 @@ importers:
         specifier: 8.5.25
         version: 8.5.25
       tsdown:
-        specifier: 'catalog:'
+        specifier: 0.16.0
         version: 0.16.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(oxc-resolver@11.24.2)(typescript@5.8.3)
       typescript:
         specifier: 5.8.3
         version: 5.8.3
       vitest:
-        specifier: 'catalog:'
+        specifier: ^4.1.12
         version: 4.1.12(@opentelemetry/api@1.9.1)(@types/node@22.12.0)(@vitest/coverage-v8@4.1.12)(happy-dom@21.0.4)(jsdom@23.2.0)(vite@8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3))
 
   packages/hooks:
@@ -1482,13 +1044,13 @@ importers:
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
-        specifier: 'catalog:'
+        specifier: 22.12.0
         version: 22.12.0
       '@types/react':
         specifier: 19.2.17
         version: 19.2.17
       tsdown:
-        specifier: 'catalog:'
+        specifier: 0.16.0
         version: 0.16.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(oxc-resolver@11.24.2)(typescript@5.8.3)
       typescript:
         specifier: 5.8.3
@@ -1497,35 +1059,35 @@ importers:
   packages/i18n:
     dependencies:
       i18next:
-        specifier: 'catalog:'
+        specifier: 25.10.9
         version: 25.10.9(typescript@5.8.3)
       i18next-icu:
-        specifier: 'catalog:'
+        specifier: 2.4.3
         version: 2.4.3(intl-messageformat@10.7.16)
       i18next-resources-to-backend:
-        specifier: 'catalog:'
+        specifier: 1.2.1
         version: 1.2.1
       react:
         specifier: 19.2.8
         version: 19.2.8
       react-i18next:
-        specifier: 'catalog:'
+        specifier: 16.6.6
         version: 16.6.6(i18next@25.10.9(typescript@5.8.3))(react@19.2.8)(typescript@5.8.3)
     devDependencies:
       '@plane/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
-        specifier: 'catalog:'
+        specifier: 22.12.0
         version: 22.12.0
       '@types/react':
         specifier: 19.2.17
         version: 19.2.17
       tsdown:
-        specifier: 'catalog:'
+        specifier: 0.16.0
         version: 0.16.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(oxc-resolver@11.24.2)(typescript@5.8.3)
       tsx:
-        specifier: 'catalog:'
+        specifier: 4.20.6
         version: 4.20.6
       typescript:
         specifier: 5.8.3
@@ -1534,10 +1096,10 @@ importers:
   packages/logger:
     dependencies:
       express-winston:
-        specifier: 'catalog:'
+        specifier: ^4.2.0
         version: 4.2.0(winston@3.17.0)
       winston:
-        specifier: 'catalog:'
+        specifier: ^3.17.0
         version: 3.17.0
     devDependencies:
       '@plane/typescript-config':
@@ -1547,10 +1109,10 @@ importers:
         specifier: 4.17.23
         version: 4.17.23
       '@types/node':
-        specifier: 'catalog:'
+        specifier: 22.12.0
         version: 22.12.0
       tsdown:
-        specifier: 'catalog:'
+        specifier: 0.16.0
         version: 0.16.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(oxc-resolver@11.24.2)(typescript@5.8.3)
       typescript:
         specifier: 5.8.3
@@ -1568,20 +1130,20 @@ importers:
         specifier: 1.20.0
         version: 1.20.0
       file-type:
-        specifier: 'catalog:'
+        specifier: ^21.3.1
         version: 21.3.3
     devDependencies:
       '@plane/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       tsdown:
-        specifier: 'catalog:'
+        specifier: 0.16.0
         version: 0.16.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(oxc-resolver@11.24.2)(typescript@5.8.3)
       typescript:
         specifier: 5.8.3
         version: 5.8.3
       vitest:
-        specifier: 'catalog:'
+        specifier: ^4.1.12
         version: 4.1.12(@opentelemetry/api@1.9.1)(@types/node@22.12.0)(@vitest/coverage-v8@4.1.12)(happy-dom@21.0.4)(jsdom@23.2.0)(vite@8.2.4(@types/node@22.12.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.43.1)(tsx@4.20.6)(yaml@2.8.3))
 
   packages/shared-state:
@@ -1599,10 +1161,10 @@ importers:
         specifier: 4.18.1
         version: 4.18.1
       mobx:
-        specifier: 'catalog:'
+        specifier: 6.12.0
         version: 6.12.0
       mobx-utils:
-        specifier: 'catalog:'
+        specifier: 6.0.8
         version: 6.0.8(mobx@6.12.0)
       uuid:
         specifier: 14.0.0
@@ -1615,13 +1177,13 @@ importers:
         specifier: workspace:*
         version: link:../typescript-config
       '@types/lodash-es':
-        specifier: 'catalog:'
+        specifier: 4.17.12
         version: 4.17.12
       '@types/node':
-        specifier: 'catalog:'
+        specifier: 22.12.0
         version: 22.12.0
       tsdown:
-        specifier: 'catalog:'
+        specifier: 0.16.0
         version: 0.16.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(oxc-resolver@11.24.2)(typescript@5.8.3)
       typescript:
         specifier: 5.8.3
@@ -1630,17 +1192,17 @@ importers:
   packages/tailwind-config:
     dependencies:
       '@makeplane/propel':
-        specifier: 'catalog:'
+        specifier: 0.9.7
         version: 0.9.7(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.2.4)
       '@tailwindcss/postcss':
-        specifier: 'catalog:'
+        specifier: 4.2.4
         version: 4.2.4
       postcss:
         specifier: 8.5.25
         version: 8.5.25
     devDependencies:
       tailwindcss:
-        specifier: 'catalog:'
+        specifier: 4.2.4
         version: 4.2.4
 
   packages/types:
@@ -1656,7 +1218,7 @@ importers:
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
-        specifier: 'catalog:'
+        specifier: 22.12.0
         version: 22.12.0
       '@types/react':
         specifier: 19.2.17
@@ -1665,7 +1227,7 @@ importers:
         specifier: 19.2.3
         version: 19.2.3(@types/react@19.2.17)
       tsdown:
-        specifier: 'catalog:'
+        specifier: 0.16.0
         version: 0.16.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(oxc-resolver@11.24.2)(typescript@5.8.3)
       typescript:
         specifier: 5.8.3
@@ -1676,7 +1238,7 @@ importers:
   packages/utils:
     dependencies:
       '@makeplane/propel':
-        specifier: 'catalog:'
+        specifier: 0.9.7
         version: 0.9.7(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.2.4)
       '@plane/constants':
         specifier: workspace:*
@@ -1685,49 +1247,49 @@ importers:
         specifier: workspace:*
         version: link:../types
       chroma-js:
-        specifier: 'catalog:'
+        specifier: ^3.2.0
         version: 3.2.0
       clsx:
-        specifier: 'catalog:'
+        specifier: ^2.1.1
         version: 2.1.1
       date-fns:
-        specifier: 'catalog:'
+        specifier: ^4.1.0
         version: 4.1.0
       hast:
-        specifier: 'catalog:'
+        specifier: ^1.0.0
         version: 1.0.0
       hast-util-to-mdast:
-        specifier: 'catalog:'
+        specifier: ^10.1.2
         version: 10.1.2
       lodash-es:
         specifier: 4.18.1
         version: 4.18.1
       mdast:
-        specifier: 'catalog:'
+        specifier: ^3.0.0
         version: 3.0.0
       react:
         specifier: 19.2.8
         version: 19.2.8
       rehype-parse:
-        specifier: 'catalog:'
+        specifier: ^9.0.1
         version: 9.0.1
       rehype-remark:
-        specifier: 'catalog:'
+        specifier: ^10.0.1
         version: 10.0.1
       remark-gfm:
-        specifier: 'catalog:'
+        specifier: ^4.0.1
         version: 4.0.1
       remark-stringify:
-        specifier: 'catalog:'
+        specifier: ^11.0.0
         version: 11.0.0
       sanitize-html:
-        specifier: 'catalog:'
+        specifier: 2.18.1
         version: 2.18.1
       tailwind-merge:
-        specifier: 'catalog:'
+        specifier: 3.4.0
         version: 3.4.0
       unified:
-        specifier: 'catalog:'
+        specifier: ^11.0.5
         version: 11.0.5
       uuid:
         specifier: 14.0.0
@@ -1737,28 +1299,28 @@ importers:
         specifier: workspace:*
         version: link:../typescript-config
       '@types/chroma-js':
-        specifier: 'catalog:'
+        specifier: ^3.1.2
         version: 3.1.2
       '@types/hast':
-        specifier: 'catalog:'
+        specifier: ^3.0.4
         version: 3.0.4
       '@types/lodash-es':
-        specifier: 'catalog:'
+        specifier: 4.17.12
         version: 4.17.12
       '@types/mdast':
-        specifier: 'catalog:'
+        specifier: ^4.0.4
         version: 4.0.4
       '@types/node':
-        specifier: 'catalog:'
+        specifier: 22.12.0
         version: 22.12.0
       '@types/react':
         specifier: 19.2.17
         version: 19.2.17
       '@types/sanitize-html':
-        specifier: 'catalog:'
+        specifier: 2.16.0
         version: 2.16.0
       tsdown:
-        specifier: 'catalog:'
+        specifier: 0.16.0
         version: 0.16.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(oxc-resolver@11.24.2)(typescript@5.8.3)
       typescript:
         specifier: 5.8.3
@@ -2612,12 +2174,6 @@ packages:
   '@napi-rs/canvas@0.1.80':
     resolution: {integrity: sha512-DxuT1ClnIPts1kQx8FBmkk4BQDTfI5kIzywAaMjQSXfNnra5UFU9PwurXrl+Je3bJ6BGsp/zmshVVFbCmyI+ww==}
     engines: {node: '>= 10'}
-
-  '@napi-rs/wasm-runtime@1.1.4':
-    resolution: {integrity: sha512-3NQNNgA1YSlJb/kMH1ildASP9HW7/7kYnRI2szWJaofaS1hWmbGI4H+d3+22aGzXXN9IJ+n+GiFVcGipJP18ow==}
-    peerDependencies:
-      '@emnapi/core': ^1.7.1
-      '@emnapi/runtime': ^1.7.1
 
   '@napi-rs/wasm-runtime@1.2.6':
     resolution: {integrity: sha512-mRyDmEw9/fCDXCGfL1sbgIw/GUK0PVxRW4YwgPN61F3LQ+fSyoBFarJVzgGyhF6kRzEQZ0FejDqm4WLXSeqQmw==}
@@ -3900,12 +3456,6 @@ packages:
       react: 19.2.8
       react-dom: 19.2.8
 
-  '@tanstack/react-virtual@3.13.12':
-    resolution: {integrity: sha512-Gd13QdxPSukP8ZrkbgS2RwoZseTTbQPLnQEn7HY/rqtM+8Zt95f7xKC7N0EsKs7aoz0WzZ+fditZux+F8EzYxA==}
-    peerDependencies:
-      react: 19.2.8
-      react-dom: 19.2.8
-
   '@tanstack/react-virtual@3.14.23':
     resolution: {integrity: sha512-Oyy58qQwdaQieA+A4WUDtnh9D1rv5FZvGdw8og9Xeyh88V6HH94vMSyV5i9ATIbYNe9t5Ix0WXRo9NOTpHDkYw==}
     peerDependencies:
@@ -3915,9 +3465,6 @@ packages:
   '@tanstack/table-core@8.21.3':
     resolution: {integrity: sha512-ldZXEhOBb8Is7xLs01fR3YEc3DERiz5silj8tnGkFZytt1abEvl/GhUmCE0PMLaMPTa3Jk4HbKmRlHmu+gCftg==}
     engines: {node: '>=12'}
-
-  '@tanstack/virtual-core@3.13.12':
-    resolution: {integrity: sha512-1YBOJfRHV4sXUmWsFSf5rQor4Ss82G8dQWLRbnk3GA4jeP8hQt1hxXh0tmflpC0dz3VgEv/1+qwPyLeWkQuPFA==}
 
   '@tanstack/virtual-core@3.19.8':
     resolution: {integrity: sha512-Oz/SYBo/aVPyQkwtOw7Q23myITUgFIof2glQqydYJAPL6mH2SkJDkvDKZTklB+7gv5jGLZQhyTcd7SO1A1EODQ==}
@@ -4204,9 +3751,6 @@ packages:
     resolution: {integrity: sha512-m8tJkIrTrbQ9O1uHxV0GUq623Zg1678xGna8eMsy4KbygUX/wVFgdZDYV/AxyoyaW/U7nyKoBvaDVwm22p9xqA==}
     cpu: [arm64]
     os: [win32]
-
-  '@tybys/wasm-util@0.10.1':
-    resolution: {integrity: sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg==}
 
   '@tybys/wasm-util@0.10.4':
     resolution: {integrity: sha512-W3c4gRigFS0T/Ma4qIYF3GDAc5AQdHb1yL5znJT1Zv1YaD9Kitx656wBjvr19qbiosmZT8lWDM5BEMynUqX65A==}
@@ -5139,9 +4683,6 @@ packages:
   emoji-regex-xs@1.0.0:
     resolution: {integrity: sha512-LRlerrMYoIDrT6jgpeZ2YYl/L8EulRTt5hQcYjy5AInh7HWXKimpqx68aknBFpGL2+/IcogTcaydJEgaTmOpDg==}
 
-  emoji-regex@10.5.0:
-    resolution: {integrity: sha512-lb49vf1Xzfx080OKA0o6l8DQQpV+6Vg95zyCJX9VB/BqKYlhG7N4wgROUUHRA+ZPUefLnteQOad7z1kT2bV7bg==}
-
   emoji-regex@10.6.0:
     resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
 
@@ -5370,10 +4911,6 @@ packages:
 
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
-
-  fast-equals@5.2.2:
-    resolution: {integrity: sha512-V7/RktU11J3I36Nwq2JnZEM7tNm17eBJz+u25qdxBZeCKiX6BkVSZQjwWIr+IobgnZy+ag73tTZgZi7tr0LrBw==}
-    engines: {node: '>=6.0.0'}
 
   fast-equals@5.4.5:
     resolution: {integrity: sha512-yKEpcFuRPu/pTQL2VB8YKE2yFldrLlIsoWtJeBnAdqEhvu21OgkFT0C8njf/xYc2LSZGEr3K9JGjthHJxnVLvQ==}
@@ -6809,9 +6346,6 @@ packages:
 
   prosemirror-keymap@1.2.3:
     resolution: {integrity: sha512-4HucRlpiLd1IPQQXNqeo81BGtkY8Ai5smHhKW9jjPKRc2wQIxksg7Hl1tTI2IfT2B/LgX6bfYvXxEpJl7aKYKw==}
-
-  prosemirror-markdown@1.13.2:
-    resolution: {integrity: sha512-FPD9rHPdA9fqzNmIIDhhnYQ6WgNoSWX9StUZ8LEKapaXU9i6XgykaHKhp6XMyXlOWetmaFgGDS/nu/w9/vUc5g==}
 
   prosemirror-markdown@1.13.4:
     resolution: {integrity: sha512-D98dm4cQ3Hs6EmjK500TdAOew4Z03EV71ajEFiWra3Upr7diytJsjF4mPV2dW+eK5uNectiRj0xFxYI9NLXDbw==}
@@ -8750,17 +8284,17 @@ snapshots:
       '@napi-rs/canvas-linux-x64-musl': 0.1.80
       '@napi-rs/canvas-win32-x64-msvc': 0.1.80
 
-  '@napi-rs/wasm-runtime@1.1.4(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)':
-    dependencies:
-      '@emnapi/core': 1.11.2
-      '@emnapi/runtime': 1.11.3
-      '@tybys/wasm-util': 0.10.1
-    optional: true
-
   '@napi-rs/wasm-runtime@1.2.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)':
     dependencies:
       '@emnapi/core': 1.11.2
       '@emnapi/runtime': 1.11.2
+      '@tybys/wasm-util': 0.10.4
+    optional: true
+
+  '@napi-rs/wasm-runtime@1.2.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)':
+    dependencies:
+      '@emnapi/core': 1.11.2
+      '@emnapi/runtime': 1.11.3
       '@tybys/wasm-util': 0.10.4
     optional: true
 
@@ -9482,7 +9016,7 @@ snapshots:
 
   '@rolldown/binding-wasm32-wasi@1.0.0-beta.46(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
+      '@napi-rs/wasm-runtime': 1.2.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -9640,12 +9174,6 @@ snapshots:
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
 
-  '@tanstack/react-virtual@3.13.12(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
-    dependencies:
-      '@tanstack/virtual-core': 3.13.12
-      react: 19.2.8
-      react-dom: 19.2.8(react@19.2.8)
-
   '@tanstack/react-virtual@3.14.23(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
       '@tanstack/virtual-core': 3.19.8
@@ -9653,8 +9181,6 @@ snapshots:
       react-dom: 19.2.8(react@19.2.8)
 
   '@tanstack/table-core@8.21.3': {}
-
-  '@tanstack/virtual-core@3.13.12': {}
 
   '@tanstack/virtual-core@3.19.8': {}
 
@@ -9946,11 +9472,6 @@ snapshots:
     optional: true
 
   '@turbo/windows-arm64@2.10.11':
-    optional: true
-
-  '@tybys/wasm-util@0.10.1':
-    dependencies:
-      tslib: 2.8.1
     optional: true
 
   '@tybys/wasm-util@0.10.4':
@@ -10894,8 +10415,6 @@ snapshots:
 
   emoji-regex-xs@1.0.0: {}
 
-  emoji-regex@10.5.0: {}
-
   emoji-regex@10.6.0: {}
 
   emoji-regex@8.0.0: {}
@@ -11194,8 +10713,6 @@ snapshots:
       pure-rand: 6.1.0
 
   fast-deep-equal@3.1.3: {}
-
-  fast-equals@5.2.2: {}
 
   fast-equals@5.4.5: {}
 
@@ -12941,12 +12458,6 @@ snapshots:
       prosemirror-state: 1.4.4
       w3c-keyname: 2.2.8
 
-  prosemirror-markdown@1.13.2:
-    dependencies:
-      '@types/markdown-it': 14.1.2
-      markdown-it: 14.3.3
-      prosemirror-model: 1.25.12
-
   prosemirror-markdown@1.13.4:
     dependencies:
       '@types/markdown-it': 14.1.2
@@ -13169,7 +12680,7 @@ snapshots:
 
   react-smooth@4.0.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8):
     dependencies:
-      fast-equals: 5.2.2
+      fast-equals: 5.4.5
       prop-types: 15.8.1
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
@@ -13646,7 +13157,7 @@ snapshots:
 
   string-width@7.2.0:
     dependencies:
-      emoji-regex: 10.5.0
+      emoji-regex: 10.6.0
       get-east-asian-width: 1.4.0
       strip-ansi: 7.1.2
 
@@ -13755,7 +13266,7 @@ snapshots:
       '@types/markdown-it': 13.0.9
       markdown-it: 14.3.3
       markdown-it-task-lists: 2.1.1
-      prosemirror-markdown: 1.13.2
+      prosemirror-markdown: 1.13.4
 
   tmp@0.2.7: {}
 
