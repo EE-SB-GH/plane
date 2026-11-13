@@ -20,7 +20,6 @@ function isJsonObject(value: JsonValue): value is JsonObject {
 
 function collectKeys(value: JsonValue, prefix = ""): string[] {
   if (!isJsonObject(value)) return prefix ? [prefix] : [];
-
   return Object.entries(value).flatMap(([key, child]) => collectKeys(child, prefix ? `${prefix}.${key}` : key));
 }
 

@@ -20,7 +20,6 @@ function isJsonObject(value: JsonValue): value is JsonObject {
 
 function collectKeys(value: JsonValue, prefix = ""): Set<string> {
   if (!isJsonObject(value)) return new Set(prefix ? [prefix] : []);
-
   const keys = new Set<string>();
   for (const [key, child] of Object.entries(value)) {
     for (const nestedKey of collectKeys(child, prefix ? `${prefix}.${key}` : key)) keys.add(nestedKey);
